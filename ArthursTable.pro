@@ -28,7 +28,6 @@ HEADERS += algorithms.h \
            audioio.h \
            buffer.h \
            bulktransfer.h \
-           chatwindow.h \
            config.h \
            control.h \
 		   convert.h \
@@ -63,7 +62,6 @@ SOURCES += algorithms.cpp \
            audioio.cpp \
            buffer.cpp \
            bulktransfer.cpp \
-           chatwindow.cpp \
            control.cpp \
 		   convert.cpp \
            diceroller.cpp \
