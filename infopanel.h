@@ -10,7 +10,6 @@
 #include "mapviewer.h"
 #include "npcviewer.h"
 #include "dungeonviewer.h"
-#include "handoutviewer.h"
 #include "bulktransfer.h"
 #include "viewer.h"
 

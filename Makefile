@@ -57,7 +57,6 @@ SOURCES       = algorithms.cpp \
 		audioio.cpp \
 		buffer.cpp \
 		bulktransfer.cpp \
-		chatwindow.cpp \
 		control.cpp \
 		convert.cpp \
 		diceroller.cpp \
@@ -116,7 +115,6 @@ OBJECTS       = algorithms.o \
 		audioio.o \
 		buffer.o \
 		bulktransfer.o \
-		chatwindow.o \
 		control.o \
 		convert.o \
 		diceroller.o \
@@ -359,7 +357,6 @@ DIST          = /usr/lib64/qt5/mkspecs/features/spec_pre.prf \
 		audioio.h \
 		buffer.h \
 		bulktransfer.h \
-		chatwindow.h \
 		config.h \
 		control.h \
 		convert.h \
@@ -393,7 +390,6 @@ DIST          = /usr/lib64/qt5/mkspecs/features/spec_pre.prf \
 		audioio.cpp \
 		buffer.cpp \
 		bulktransfer.cpp \
-		chatwindow.cpp \
 		control.cpp \
 		convert.cpp \
 		diceroller.cpp \
@@ -817,8 +813,8 @@ distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib64/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents algorithms.h ambient.h audioio.h buffer.h bulktransfer.h chatwindow.h config.h control.h convert.h diceroller.h effectconfig.h facilitymanager.h filewatcher.h focus.h headtracker.h infopanel.h mainwindow.h marker.h messages.h npcviewer.h painterface.h playercomlink.h roomacoustics.h setup.h sketchpad.h soundfx.h streammanager.h tableselector.h teamselector.h tools.h types.h viewer.h visualizer.h voiceeffect.h vumeter.h $(DISTDIR)/
-	$(COPY_FILE) --parents algorithms.cpp ambient.cpp audioio.cpp buffer.cpp bulktransfer.cpp chatwindow.cpp control.cpp convert.cpp diceroller.cpp effectconfig.cpp facilitymanager.cpp filewatcher.cpp focus.cpp headtracker.cpp infopanel.cpp main.cpp mainwindow.cpp marker.cpp messages.cpp npcviewer.cpp painterface.c playercomlink.cpp roomacoustics.cpp setup.cpp sketchpad.cpp soundfx.cpp streammanager.cpp tableselector.cpp teamselector.cpp tools.cpp viewer.cpp visualizer.cpp voiceeffect.cpp vumeter.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents algorithms.h ambient.h audioio.h buffer.h bulktransfer.h config.h control.h convert.h diceroller.h effectconfig.h facilitymanager.h filewatcher.h focus.h headtracker.h infopanel.h mainwindow.h marker.h messages.h npcviewer.h painterface.h playercomlink.h roomacoustics.h setup.h sketchpad.h soundfx.h streammanager.h tableselector.h teamselector.h tools.h types.h viewer.h visualizer.h voiceeffect.h vumeter.h $(DISTDIR)/
+	$(COPY_FILE) --parents algorithms.cpp ambient.cpp audioio.cpp buffer.cpp bulktransfer.cpp control.cpp convert.cpp diceroller.cpp effectconfig.cpp facilitymanager.cpp filewatcher.cpp focus.cpp headtracker.cpp infopanel.cpp main.cpp mainwindow.cpp marker.cpp messages.cpp npcviewer.cpp painterface.c playercomlink.cpp roomacoustics.cpp setup.cpp sketchpad.cpp soundfx.cpp streammanager.cpp tableselector.cpp teamselector.cpp tools.cpp viewer.cpp visualizer.cpp voiceeffect.cpp vumeter.cpp $(DISTDIR)/
 
 
 clean: compiler_clean 
@@ -987,7 +983,6 @@ moc_infopanel.cpp: infopanel.h \
 		soundfx.h \
 		npcviewer.h \
 		dungeonviewer.h \
-		handoutviewer.h \
 		viewer.h \
 		algorithms.h \
 		marker.h \
@@ -1003,12 +998,8 @@ moc_mainwindow.cpp: mainwindow.h \
 		tools.h \
 		convert.h \
 		bulktransfer.h \
-		ambiani.h \
 		audioio.h \
 		vumeter.h \
-		chatwindow.h \
-		commatrix.h \
-		soundfx.h \
 		diceroller.h \
 		effectconfig.h \
 		filewatcher.h \
@@ -1020,9 +1011,9 @@ moc_mainwindow.cpp: mainwindow.h \
 		streammanager.h \
 		painterface.h \
 		buffer.h \
+		soundfx.h \
 		npcviewer.h \
 		dungeonviewer.h \
-		handoutviewer.h \
 		viewer.h \
 		algorithms.h \
 		marker.h \
@@ -1257,9 +1248,6 @@ bulktransfer.o: bulktransfer.cpp bulktransfer.h \
 		convert.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o bulktransfer.o bulktransfer.cpp
 
-chatwindow.o: chatwindow.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o chatwindow.o chatwindow.cpp
-
 control.o: control.cpp control.h \
 		config.h \
 		types.h \
@@ -1351,7 +1339,6 @@ infopanel.o: infopanel.cpp infopanel.h \
 		soundfx.h \
 		npcviewer.h \
 		dungeonviewer.h \
-		handoutviewer.h \
 		viewer.h \
 		algorithms.h \
 		marker.h
@@ -1366,12 +1353,8 @@ main.o: main.cpp headtracker.h \
 		bulktransfer.h \
 		mainwindow.h \
 		ambient.h \
-		ambiani.h \
 		audioio.h \
 		vumeter.h \
-		chatwindow.h \
-		commatrix.h \
-		soundfx.h \
 		diceroller.h \
 		effectconfig.h \
 		filewatcher.h \
@@ -1382,9 +1365,9 @@ main.o: main.cpp headtracker.h \
 		streammanager.h \
 		painterface.h \
 		buffer.h \
+		soundfx.h \
 		npcviewer.h \
 		dungeonviewer.h \
-		handoutviewer.h \
 		viewer.h \
 		algorithms.h \
 		marker.h \
@@ -1407,12 +1390,8 @@ mainwindow.o: mainwindow.cpp mainwindow.h \
 		tools.h \
 		convert.h \
 		bulktransfer.h \
-		ambiani.h \
 		audioio.h \
 		vumeter.h \
-		chatwindow.h \
-		commatrix.h \
-		soundfx.h \
 		diceroller.h \
 		effectconfig.h \
 		filewatcher.h \
@@ -1424,9 +1403,9 @@ mainwindow.o: mainwindow.cpp mainwindow.h \
 		streammanager.h \
 		painterface.h \
 		buffer.h \
+		soundfx.h \
 		npcviewer.h \
 		dungeonviewer.h \
-		handoutviewer.h \
 		viewer.h \
 		algorithms.h \
 		marker.h \

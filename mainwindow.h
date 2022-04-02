@@ -10,11 +10,10 @@
 #include <QFileDialog>
 #include "ambient.h"
 //#include "ambientsound.h"
-#include "ambiani.h"
 #include "audioio.h"
 #include "bulktransfer.h"
-#include "chatwindow.h"
-#include "commatrix.h"
+//#include "chatwindow.h"
+//#include "commatrix.h"
 #include "control.h"
 #include "diceroller.h"
 #include "effectconfig.h"
