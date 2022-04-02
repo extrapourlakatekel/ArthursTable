@@ -1,0 +1,2 @@
+ 
+wget --post-data 'group=Tulamidengruppe&name=Markaril&password=warum' https://robinsnest.de/cgi-bin/puncher.pl -O punch.txt 

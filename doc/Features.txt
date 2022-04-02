@@ -1,0 +1,9 @@
+Feature Requests
+
+* Add the option of placing markers to maps
+* Add a dungeon viewer
+* Add a scratch pad where all players can draw simultaneously
+* Implement the voice effects
+* Implement the transmission voice effects: Telephone sound & thick door
+* Make the transmission of the gamemaster's mouse pointer possible
+
