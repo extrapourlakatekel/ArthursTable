@@ -1,0 +1,27 @@
+Attribution of the icons
+
+ArtursTable: own art 
+back: <a href="https://www.flaticon.com/free-icons/next" title="next icons">Next icons created by Google - Flaticon</a>
+bird: https://icon-library.com/icon/bird-icon-29.html.html>Bird Icon # 153433 (modified)
+broken: <a href="https://www.flaticon.com/free-icons/broken-image" title="broken image icons">Broken image icons created by verry purnomo - Flaticon</a>
+debug: <a href="https://www.flaticon.com/free-icons/debug" title="debug icons">Debug icons created by Freepik - Flaticon</a>
+dice: <a href="https://www.flaticon.com/free-icons/dice" title="dice icons">Dice icons created by Dimi Kazak - Flaticon</a>
+focus: <a href="https://www.flaticon.com/free-icons/focus" title="focus icons">Focus icons created by Ilham Fitrotul Hayat - Flaticon</a>
+fullscreen: <a href="https://www.flaticon.com/free-icons/fullscreen" title="fullscreen icons">Fullscreen icons created by Those Icons - Flaticon</a>
+gamemaster: own art
+gear: <a href="https://www.flaticon.com/free-icons/system" title="system icons">System icons created by Freepik - Flaticon</a>
+hidden: https://icon-library.com/icon/visible-icon-9.html.html>Visible Icon # 64047
+loop: <div>Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+microphone: <a href="https://www.flaticon.com/free-icons/mic" title="mic icons">Mic icons created by Dave Gandy - Flaticon</a>
+mute: <a href="https://www.flaticon.com/free-icons/mute" title="mute icons">Mute icons created by Freepik - Flaticon</a>
+nofullscreen:<a href="https://www.flaticon.com/free-icons/fullscreen" title="fullscreen icons">Fullscreen icons created by Those Icons - Flaticon</a>
+noloop: <div>Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> (modified)
+note: https://icon-library.com/icon/bird-icon-29.html.html>Bird Icon # 153433 (modified)
+notepad: https://icon-library.com/icon/notepad-icon-png-7.html.html>Notepad Icon Png # 366455
+play: https://icon-library.com/icon/play-icon-png-5.html.html>Play Icon Png # 312936
+reload: https://icon-library.com/icon/reset-icon-png-2.html.html>Reset Icon Png # 76591
+skip: <a href="https://www.flaticon.com/free-icons/next" title="next icons">Next icons created by Google - Flaticon</a>
+stop: own art
+unknown: https://icon-library.com/icon/anonymous-female-icon-5.html.html>Anonymous Female Icon # 406678
+visible: https://icon-library.com/icon/visible-icon-25.html.html>Visible Icon # 64036
+zero: own art
